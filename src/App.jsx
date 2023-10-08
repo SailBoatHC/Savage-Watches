@@ -3,7 +3,7 @@ import './main.css'
 import Header from './components/Header'
 import Banner from './components/Banner'
 import TrendingProducts from './components/TrendingProducts'
-import BestSellers from './components/Bestsellers'
+import BestSellers from './components/BestSellers'
 import Newsletter from './components/Newsletter'
 import Footer from './components/Footer'
 
