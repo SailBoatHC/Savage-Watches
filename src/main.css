@@ -1,0 +1,46 @@
+* {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+}
+
+.CD {
+    font-family: 'Clash Display', sans-serif;
+}
+
+.RHD {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.h2 {
+    right: 150px;
+    bottom: 90px;
+}
+
+.h2-1 {
+    bottom: 38px;
+}
+
+.b-a {
+    top: 2237px;
+    left: 630px;
+}
+
+/* Customize the scrollbar track */
+::-webkit-scrollbar {
+    width: 1px;
+  }
+  
+  /* Customize the scrollbar thumb */
+  ::-webkit-scrollbar-thumb {
+    background-color: #a3a3a3;
+    border-radius: 6px;
+  }
+
+  /* Customize the scrollbar thumb on Firefox */
+  ::-moz-scrollbar-thumb {
+    background-color: #a3a3a3;
+    border-radius: 6px;
+  }
+  
+
+
