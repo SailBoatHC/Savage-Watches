@@ -8,6 +8,6 @@ To-do:
 5. Contact Page
 6. Cart page with keeping track of carted products
 
-This is just a hobby project, so i dont expect for all of this to be actually completed
+This is just a hobby project, so i dont expect for all of this to be actually completed.
 The project has been made with ReactJSX and TailwindCSS.
-This is first TailwindCSS project with no tutorial or help.
+This is my first TailwindCSS project with no tutorial or help.
