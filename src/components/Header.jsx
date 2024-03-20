@@ -115,120 +115,20 @@ const Header = () => {
                         </button>
                     </div>
                 </nav>
-                {/* Mobile Menu Button */}
-                <div className="mx-[7.5%] lg:hidden flex justify-between">
-                    <button
-                        className="p-2 text-xl"
-                        onClick={toggleMobileMenu}
-                    >
-                        <RxHamburgerMenu />
-                    </button>
-                    <h1 className="text-3xl CD py-1">SAVAGE WATCHES</h1>
-                    <div></div>
-                </div>
-                {/* Mobile Menu */}
-                {mobileMenuOpen && (
-                    <div className="">
-                        <div className="mx-[7.5%] mt-3 transition">
-                            <button
-                                className="
-                                            w-[150px] 
-                                            rounded-full 
-                                            bg-neutral-200
-                                            border
-                                            border-transparent
-                                            px-6 
-                                            py-2 
-                                            disabled:cursor-not-allowed 
-                                            disabled:opacity-50
-                                            text-black
-                                            font-bold
-                                            hover:opacity-75
-                                            transition
-                                            gap-x-2
-                                            flex
-                                            mb-2
-                                        "
-                                onClick={() => window.location.href = '/'}
-                            >
-                                <AiFillHome size={20} />
-                                Home
-                            </button>
-                            <button
-                                className="
-                                w-[150px] 
-                                rounded-full 
-                                bg-neutral-200
-                                border
-                                border-transparent
-                                px-6 
-                                py-2 
-                                disabled:cursor-not-allowed 
-                                disabled:opacity-50
-                                text-black
-                                font-bold
-                                hover:opacity-75
-                                transition
-                                gap-x-2
-                                flex
-                                mb-2
-                            "
-                                onClick={() => window.location.href = '/'}
-                            >
-                                <BsFillTelephoneFill size={20} />
-                                Contact
-                            </button>
-                            <button
-                                className="
-                                w-[150px] 
-                                rounded-full 
-                                bg-neutral-200
-                                border
-                                border-transparent
-                                px-6 
-                                py-2 
-                                disabled:cursor-not-allowed 
-                                disabled:opacity-50
-                                text-black
-                                font-bold
-                                hover:opacity-75
-                                transition
-                                gap-x-3
-                                flex
-                                mb-2
-                            "
-                                onClick={() => window.location.href = '/'}
-                            >
-                                <FaShoppingCart size={20} />
-                                Cart
-                            </button>
-                            <button
-                               className="
-                               w-[150px] 
-                               rounded-full 
-                               bg-neutral-200
-                               border
-                               border-transparent
-                               px-6 
-                               py-2 
-                               disabled:cursor-not-allowed 
-                               disabled:opacity-50
-                               text-black
-                               font-bold
-                               hover:opacity-75
-                               transition
-                               gap-x-2
-                               flex
-                           "
-                                onClick={() => window.location.href = '/'}
-                            >
-                                <IoMdMail size={20} />
-                                Login
-                            </button>
-                        </div>
-                    </div>
-                )}
             </header>
+            <nav className='lg:hidden'>
+                <div className='flex justify-between'>
+                    <div></div>
+                    <div className='ml-[4rem]'>
+                        <h1 className="text-3xl CD py-1 2xs:text-xl xs:text-2xl">SAVAGE WATCHES</h1>
+                    </div>
+                    <div className='mr-[7.5%] mt-2'>
+                        <button>
+                            <RxHamburgerMenu />
+                        </button>
+                    </div>
+                </div>
+            </nav>
         </>
     );
 };

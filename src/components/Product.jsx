@@ -12,10 +12,12 @@ const Product = ({ name, onClick, price, image, imageAlt, className, discount, i
                 <span className="absolute top-0 left-0 m-2 rounded-full bg-black px-2 text-center text-sm font-medium text-white">{discount}% OFF</span>
             </a>
             <div className='flex mt-3 ml-4 justify-between items-center'>
-                <span className='mb-2 text-lg font-bold'>${price} USD</span>
+                <span className='mb-2 md:text-lg lg:text-sm xl:text-lg font-bold'>${price} USD</span>
                 <button 
                     className='
-                        w-[10.5rem] 
+                        lg:text-[0.8rem]
+                        xl:text-sm
+                        xl:w-[10.5rem]
                         rounded-full 
                         bg-neutral-200
                         border

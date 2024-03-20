@@ -38,7 +38,7 @@ const Footer = () => {
     return (
         <div className="w-full border-t-2 border-neutral-800 mt-[30px]">
             <div className="mx-[7.5%]">
-                <div className="flex mt-6 justify-between">
+                <div className="flex mt-6 justify-between 4xs:flex-col sm:flex-row gap-10">
                     <div className="flex flex-col">
                         <h2 className="text-lg font-bold mb-5">INFO</h2>
                         {infoLinks.map((infoLinks) => (

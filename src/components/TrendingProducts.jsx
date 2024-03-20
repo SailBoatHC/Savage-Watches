@@ -38,8 +38,8 @@ const TrendingProducts = () => {
 
     return (
         <>
-            <div className=" mt-[40px] flex flex-col sm:mx-[7.5%]">
-                <h2 className="font-bold text-3xl">Trending Products</h2>
+            <div className=" mt-[40px] flex flex-col 2xs:mx-[7.5%]">
+                <h2 className="font-bold 4xs:text-2xl sm:text-3xl">Trending Products</h2>
                 <div className="flex gap-x-4 mt-7 4xs:flex-col sm:flex-row justify-center items-center md:gap-y-4">
                     <Product 
                         name='REVYKIN Watch' 
@@ -56,7 +56,7 @@ const TrendingProducts = () => {
                         image='./watch2.webp' 
                         price='89.99' 
                         discount='15' 
-                        className='w-[370px]' 
+                        className='w-[370px] 4xs:mb-3 sm:mb-0' 
                         imgClassName='w-[350px]'
                     />
                     <Product 
