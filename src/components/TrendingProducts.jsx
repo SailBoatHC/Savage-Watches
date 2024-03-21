@@ -39,7 +39,7 @@ const TrendingProducts = () => {
     return (
         <>
             <div className=" mt-[40px] flex flex-col 2xs:mx-[7.5%]">
-                <h2 className="font-bold 4xs:text-2xl sm:text-3xl">Trending Products</h2>
+                <h2 className="font-bold sm:text-3xl 4xs:text-xl 3xs:text-2xl">Trending Products</h2>
                 <div className="flex gap-x-4 mt-7 4xs:flex-col sm:flex-row justify-center items-center md:gap-y-4">
                     <Product 
                         name='REVYKIN Watch' 

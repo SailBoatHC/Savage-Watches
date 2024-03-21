@@ -50,7 +50,7 @@ const BestSellers = () => {
   return (
     <div className="best-sellers mx-[7.5%] mt-[40px]">
       <h2 className="4xs:text-2xl sm:text-3xl font-semibold mb-4">Our Best Sellers</h2>
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 4xs:grid-cols-1">
+      <div className="grid gap-4 items-center sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xl:gap-4">
         {products.map((product) => (
           <Product
             key={product.id}
@@ -58,6 +58,7 @@ const BestSellers = () => {
             price={product.price}
             image={product.image}
             discount={product.discount}
+            className='w-full xl:w-[370px]'
           />
         ))}
       </div>

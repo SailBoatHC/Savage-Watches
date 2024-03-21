@@ -36,12 +36,12 @@ const Banner = () => {
             </div>
             <div className='4xs:flex 4xs:flex-col lg:hidden border-b-2 border-t-2 border-neutral-800 mx-[7.5%] mt-2'>
                 <div className='flex flex-col my-4 items-center'>
-                    <h2 className='4xs:text-2xl sm:text-3xl font-bold mb-2'>The Best Value Watch Store.</h2>
+                    <h2 className='4xs:text-xl xs:text-2xl sm:text-3xl font-bold mb-2'>The Best Value Watch Store.</h2>
                     <button
                         className="
                             md:w-[130px]
                             lg:w-[150px]
-                                rounded-full
+                            rounded-full
                             bg-neutral-200
                             border
                             border-transparent

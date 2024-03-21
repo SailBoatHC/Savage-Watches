@@ -120,7 +120,7 @@ const Header = () => {
                 <div className='flex justify-between'>
                     <div></div>
                     <div className='ml-[4rem]'>
-                        <h1 className="text-3xl CD py-1 2xs:text-xl xs:text-2xl">SAVAGE WATCHES</h1>
+                        <h1 className="text-3xl CD py-1 3xs:text-xl xs:text-2xl">SAVAGE WATCHES</h1>
                     </div>
                     <div className='mr-[7.5%] mt-2'>
                         <button>

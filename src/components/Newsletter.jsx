@@ -4,7 +4,7 @@ import '../main.css'
 const Newsletter = () => {
     return (
         <div className="mx-[7.5%] mt-[150px] flex flex-col">
-            <h1 className="text-3xl font-bold mb-2">Subscribe to our Newsletter</h1>
+            <h1 className="sm:text-3xl 4xs:text-xl 3xs:text-2xl font-bold mb-2">Subscribe to our Newsletter</h1>
             <div className='flex gap-x-2 lg:flex-row 4xs:flex-col'>
                 <div className='4xs:items-center'>
                     <input
